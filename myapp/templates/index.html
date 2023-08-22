@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch App</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+    <link href="https://allfont.net/allfont.css?fonts=digital-7-mono" rel="stylesheet" type="text/css" />
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,500;1,500;1,700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <div class="container">
+
+    
+        
+        <div class="wrapper">
+
+
+            <h2 id="head1">STOP TIMER</h2>
+
+            <h1 id="timer">00:00:00.000</h1>
+
+
+            <div id="controlls">
+
+                <button onclick="startTimer()" id="start">Start</button>
+                <button onclick="stopTimer()" id="stop">Stop</button>
+                <button onclick="resetTimer()" id="reset">Reset</button>
+
+
+            </div>
+
+        
+
+        </div>
+
+        <h5 id="authname">Babu Mohanan</h5>
+    </div>
+
+    
+
+   
+    <script src="{% static 'js/index.js' %}"></script>
+</body>
+</html>

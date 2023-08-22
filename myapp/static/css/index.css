@@ -1,0 +1,212 @@
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    overflow: hidden;
+    background-color:black ;
+
+}
+
+
+#timer {
+    font-family: 'Digital-7 Mono';
+    font-size: 50px;
+    background-color: rgb(6, 248, 6);
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    
+
+    
+}
+
+.wrapper{
+    
+    background-color: rgb(5, 60, 87);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:500px;
+    height:500px;
+    border-radius: 50%;
+    position: relative;
+   
+    box-shadow: inset 0px 0px 30px 2px rgb(83, 173, 218);
+    
+    
+   
+}
+
+.container{
+
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height:100vh;
+    position: relative;
+}
+
+
+#head1{
+
+    top:100px;
+    position:absolute;
+    font-weight: bolder;
+    color:rgb(240, 237, 237);
+    letter-spacing: 5px;
+    font-size: 30PX;
+    
+    font-family: 'Chakra Petch', sans-serif;
+    
+}
+
+#controlls{
+
+    background-color:  rgb(236, 233, 233);
+    padding: 10px;
+    position: absolute;
+    bottom:100px;
+    display: flex;
+    gap:10px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+button{
+    font-family: 'Digital-7 Mono';
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding:5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+    
+}
+
+#start{
+
+    
+    background-color: rgb(7, 118, 7);
+    
+    
+    
+}
+
+#stop{
+
+    background-color: rgb(162, 10, 10);
+
+}
+
+#reset{
+
+    background-color: rgb(178, 119, 8);
+}
+
+#authname{
+
+    letter-spacing: 4px;
+    font-weight: bold;
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    color: rgb(135, 216, 240);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+
+@media only screen and (max-width:576px){
+
+
+
+    
+#timer {
+    
+    font-size: 25px;
+    
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+
+    
+}
+
+.wrapper{
+    
+    background-color: rgb(5, 60, 87);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:270px;
+    height:270px;
+    border-radius: 50%;
+    position: relative;
+   
+    box-shadow: inset 0px 0px 20px 2px rgb(83, 173, 218);
+    
+    
+   
+}
+
+
+
+
+#head1{
+
+    top:50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    
+   
+    
+}
+
+
+button{
+   
+    letter-spacing: 1px;
+    
+    padding:5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+    font-size: 10px;
+    
+}
+
+#controlls{
+
+    padding: 5px;
+    
+    bottom:50px;
+    
+    gap:5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+
+#authname{
+
+    letter-spacing: 2px;
+    bottom:0px;
+    right:0px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 10px;
+
+}
+
+
+}
